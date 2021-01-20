@@ -120,7 +120,7 @@ function draw() {
   ground1.display();
   ground2.display();
   ground3.display();
-
+text("Drag the Hexagonal stone and Release it, to launch it towards the blocks",200,50)
   imageMode(CENTER);
   image(img,ball.position.x,ball.position.y,40,40);
 
